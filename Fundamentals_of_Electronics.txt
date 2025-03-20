@@ -1,0 +1,38 @@
+Source : ChatGPT and Chrome 
+Reference : https://chatgpt.com/share/67dbcef1-020c-8004-ab3c-9ecb98b21627
+
+1. Ohm's law:
+      V = IR. 
+  Definition : the voltage across a conductor is directly proportional to the current flowing through it, provided all physical conditions and temperatures remain constant.
+Real - world problem:
+
+2. Kirchoff's law: KVL and KCL
+   
+   KVL - Kirchoff's voltage law : 
+   Definition : The sum of all voltage around a closed loop is zero.
+   Example : A 12V battery and series 2 - 6V bulbs.
+   Application :   1. Transformer and Motor windings - Helps in designing transformer coil windings by ensuring proper voltage balance.
+                   2. used in EVs and UPS to monitors the voltage drops. 
+
+   KCL - Kirchoff's current law:
+   Definition: The sum of currents entering node is equal to the sum of currents leaving the node
+   $' Iin = Iout '$
+   Example: Wifi adapter - 2A.
+   2A = 0.3A + 1.2A + 0.5A
+   Application: PCB - used for Ensures current is properly distributed in Electronic circuit boards.
+
+3. Series and Parallel circuits :
+    Series circuits have a single path for current, while parallel circuits offer multiple paths (branches), allowing current to flow through different routes simultaneously.
+    Series circuits: 
+    1. closed circuit
+    2. Not common in homes.
+    3. Unreliable wiring method
+    4. Failure affects all the devices.
+    formula:  R = R1 + R2 + ....Rn
+    
+    Parallel cicruit:
+    1. closed circuit
+    2. commonly used in homes.
+    3. Reliable wiring method
+    4. Failure does not affects all the device like series.
+    formula: 1/R = 1/R1 + 1/R2+ ...  1/Rn
