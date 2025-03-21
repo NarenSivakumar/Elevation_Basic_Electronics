@@ -1,0 +1,33 @@
+This section contains basic Electronic Components.
+
+1. Resistor 
+  Definition: A resistor is a passive electronic component that limits or controls the flow of electric current in a circuit. It is measured in Ohms (Ω).
+   Basic Formula - Ohms law: V = IR
+  
+  --> Resistor Color Code: BBROYGBVGW : BBROYGreatBritanVeryGoodWife and then Gold, Silver. also the value will be start and ends  0 to 9. 
+  Resistors use colored bands to indicate their resistance value. The color code chart follows a 4-band, 5-band, or 6-band system.
+  
+  -- To read a 4-band resistor, always read the color bands from left to right, with the most significant digit on the left and the tolerance band on the right.
+  -- The first two bands represent the first two digits, the third band is the multiplier, and the fourth band is the tolerance. 
+
+   How to Read a 4-Band Resistor?
+
+    Example: Brown, Black, Red, Gold
+    First digit (Brown) = 1
+    Second digit (Black) = 0
+    Multiplier (Red) = 10^2 = 100
+    Tolerance (Gold) = ±5%
+    Resistance Value:
+    10 × 100 = 1000Ω = 1𝑘Ω ( ±5% )
+
+    Applications of Resistors
+    Resistors are widely used in electrical and electronic circuits.
+    
+    🔹 Common Applications:
+    
+    Current Limiting – Controls current in LED circuits to prevent burning.
+    Voltage Divider – Used in circuits to step down voltage.
+    Filtering – Used in combination with capacitors to smooth signals in power supplies.
+    Heating Elements – Used in electric heaters where resistance generates heat.
+    Pull-up and Pull-down Resistors – Used in microcontrollers and logic circuits.
+
