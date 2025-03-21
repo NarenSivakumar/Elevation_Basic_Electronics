@@ -36,3 +36,55 @@ Real - world problem:
     3. Reliable wiring method
     4. Failure does not affects all the device like series.
     formula: 1/R = 1/R1 + 1/R2+ ...  1/Rn
+
+4. Voltage, Current, Resistance and Power: with real-world examples
+      i. Voltage (V) – It is the electrical pressure or force that pushes electric charges (electrons) through a conductor.
+      Example: Think of voltage like water pressure in a pipe. A higher voltage means more force pushing the electricity, just like higher water pressure pushes water faster           through a hose.
+      
+      ii. Current (I) – It is the flow of electric charge (electrons) through a conductor. Measured in Amperes (A).
+      Example: Just like water flowing through a pipe, electric current is the flow of electrons through a wire.
+      
+      iii. Resistance (R) – It is the opposition to the flow of electric current in a circuit. Measured in Ohms (Ω).
+      Example: A narrow pipe slows down the water flow, just like resistance in a wire slows down the electric current.
+      
+      iv. Power (P) – It is the rate at which electrical energy is used or transferred. Measured in Watts (W).
+      Example: A 100W light bulb consumes 100 watts of power when turned on, just like a water pump uses power to push water.
+
+5. AC Vs. DC Circuits: with real-world example
+      i. AC (Alternating Current)
+
+      The electric current changes direction periodically (flows back and forth).
+      
+      Example: The electricity from wall sockets (power supply in homes, offices) is AC.
+      
+      Uses: Powering home appliances like TVs, refrigerators, and fans.
+      
+      Transmission: Can travel long distances efficiently.
+      
+      Voltage level: Can be increased or decreased using transformer.
+      
+      ii. DC (Direct Current)
+      
+      The electric current flows in only one direction.
+      
+      Example: Batteries (AA, AAA, mobile phone batteries, car batteries) provide DC power.
+      
+      Uses: Mobile phones, laptops, and electronic circuits use DC power.
+      
+      Transmission: Not suitable for long distance transmission.
+      
+      Voltage level: Generally fixed or slowly decreasing in batteries
+      
+      Real-Life Comparison: 
+      i. AC is like ocean waves 🌊 (moving back and forth).
+      ii. DC is like a river 🏞️ (flowing in one direction).
+
+      Calculation part: 
+      For AC: ALternating Current
+      RMS (Root Mean Square) Value for AC:
+      Since AC voltage continuously changes, we use RMS value to represent its effective voltage.
+      '/Vrms = Vpeak/#2'/
+
+      For DC: Direct Current
+      DC is straightforward because the current and voltage remain constant.
+      '/Ohm's law: V = IR'/
