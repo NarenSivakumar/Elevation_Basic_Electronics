@@ -31,3 +31,112 @@ This section contains basic Electronic Components.
     Heating Elements – Used in electric heaters where resistance generates heat.
     Pull-up and Pull-down Resistors – Used in microcontrollers and logic circuits.
 
+2. Capacitor
+  
+  Definition: A capacitor is an electronic component that stores and releases electrical energy. It consists of two conductive plates separated by an insulating material           (dielectric).
+  Formula: C/QV
+  
+  Working: 
+  A Capacitor stores energy when connected to power source and releases it when needed.
+  The two phases are Charging Phase and Discharging Phase.
+  
+  Types: Ceramic, Electrolytic, Supercapacitors, Film.
+
+  Application of Capacitors:
+  ✔ Energy Storage – Used in camera flashes, UPS, and backup power.
+  ✔ Filtering & Smoothing – Removes noise from power supplies (used in TVs, laptops).
+  ✔ Signal Coupling & Decoupling – Used in audio circuits (radios, microphones).
+  ✔ Power Factor Correction – Used in industries to improve efficiency.
+  ✔ Timing Circuits – Used in oscillators (watches, alarms).
+
+  Real-World Example: Fan Regulator Circuit
+🔹 Problem: Traditional resistors-based fan regulators waste energy as heat.
+🔹 Solution: Capacitor-based fan regulators adjust speed efficiently by controlling voltage without excess heat loss.
+
+  ✅ How it Works?
+  Different capacitor values determine the fan speed by controlling the current flow.
+  Higher capacitance → Higher speed
+  Lower capacitance → Lower speed
+  ✔ Used in Ceiling Fans, Air Conditioners, and Inverters to regulate power and efficiency.
+
+  📌 Summary:  
+  ✔ A capacitor stores & releases energy in a circuit.
+  ✔ Used for filtering, timing, and power regulation.
+  ✔ Real-world example: Fan speed control, power supplies, and EVs.
+
+3. Inductor:
+
+  Definition: An Inductor is an passive electronic component that stores energy in the form of magnetic field when current flows through it.
+  Formula : V = LdI/dt 
+  V - Voltage across the inductor
+  L - Inductance
+  dI/dt - Rate of change of current
+
+  Working Principle:
+  🔹 When Current flows, an inductor creates a magnetic field around it.
+  🔹 When current changes - increases or decreases, the inductor opposes the change by inducing a voltage.
+  🔹 If the power is cut, the inductor releases the stores energy back into the circuit.
+
+  Application:
+  🔹 Power supply filtering: Removes AC noises in DC circuits.
+  🔹 Transformers: Used in Electrical transmission and voltage conversion.
+  🔹 Wireless charging: Transfers the energy through magnetic induction.
+
+  Real-World Example: Inductor in a Mobile charger
+  🔹 Problem: A charger needs to convert high AC voltage to stable DC voltage.
+  🔹 Solution: The inductor in the power supply filters high-frequency noise and ensures the smooth current flow.
+    The working of it: The inductor stores the energy from AC supply. 
+   --> it then smoothes out the voltage fluctuations in the DC output.
+   -->This prevent overheating and improving efficiency.
+
+  Used in: Mobile chargers, power supplies and Voltage regulators.
+
+  📌 Summary:
+  🔹 An inductor stores & releases energy in a magnetic field.
+  🔹 It opposes the sudden current change in a circuit.
+  🔹 Used in: Power supplies, transformers, wireless charging.
+
+  Traffic vs Inductor Example: 
+  Imagine cars moving on a Highway.
+  If a red signal suddenly changes into green cars cannot reach full speed instantly. 
+  If the signal changes green into red. the cars cannot stop suddenly, it'll reduce the speed gradually.
+
+  Conclusion: An inductor smooths out sudden changes in current. 
+
+4. Diodes:
+   
+  Definition:  A diode is two terminal semiconductor devices that allows current flows in only one direction. It consists of a PN junction that forms a barrier, allowing          current to pass when forward-biased and blocking it when reverse-biased.
+
+  i. PN Junction Diode:
+  A PN junction diode is the most basic type of diode, formed by joining P-type (positive) and N-type (negative) semiconductors.
+
+  Working Principle:
+  Forward Bias: Allows current flow.
+  Reverse Bias: Blocks current flow.
+
+  Example: Rectifiers in power suppliers.
+
+  ii. Zener diode:
+  A Zener diode is a special type of diode that operates in reverse bias and maintains a constant voltage after reaching the Zener breakdown voltage.
+
+  Working Principle:
+  In reverse bias, it allows current to flow when the voltage exceeds a certain breakdown value. Used for voltage regulation.
+
+  Example: Voltage regulators.
+
+  iii. Schottky diode:
+  A Schottky diode is made of a metal-semiconductor junction, offering low forward voltage drop and fast switching speed.
+
+  Working Principle:
+  Has a lower voltage drop (~0.2V–0.4V) compared to a standard silicon diode (~0.7V). Used in high-speed switching applications.
+
+  Example: Power supplies for efficient energy conversion.
+
+  iv. Light Emitting Diode (LED)
+  A Light Emitting Diode (LED) is a diode that emits light when forward biased.
+
+  Working Principle:
+  When current flows through the LED, electrons and holes recombine, releasing energy in the form of light (electroluminescence).
+
+  Example: Display panels - TVs, Smartphones
+  Automobile headlights.
