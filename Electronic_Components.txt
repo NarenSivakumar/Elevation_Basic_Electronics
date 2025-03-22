@@ -140,3 +140,94 @@ This section contains basic Electronic Components.
 
   Example: Display panels - TVs, Smartphones
   Automobile headlights.
+
+5. Transistors: BJT, MOSFET
+
+  Definition: Transistor is a semiconductor device used to amplify or switching the electronic signals.
+  Typically, It has three terminal Base, Collector, Emitter or Gate, Drain and Source.
+
+  Types: BJT and MOSFET
+  BJT - Bipolar Junction Transistor
+  MOSFET - Metal-Oxide Semiconductor and Field Effect Transistor.
+
+  BJT: NPN and PNP
+  Negative-Postive-Negative like that.
+  BJT is typically used as Cuurent - Controlled device.
+  -- In NPN : A small current at Base terminal allows large current flow from Collector to Emitter.
+  Real-World Applications:
+  ✅ Amplifiers in radios, televisions, and audio systems.
+  ✅ Switches in microcontrollers and logic circuits.
+  ✅ Oscillators in communication systems.
+
+  Example:
+  Microphone Amplifiers: BJTs are used in small-signal amplification circuits.
+
+  MOSFET: 
+  A MOSFET is voltage-controlled device that has four terminals: Gate, Drain, Source and Body.
+  It' s widely used in Digit Circuits and Power Electronics
+
+  Types of MOSFET: 
+  i. Enhancement mode: Normally OFF, turns ON when voltage is applied.
+  ii. Depletion mode:  Normally ON, turns OFF when voltage is applied.
+
+  Working Principle:
+  Voltage at the Gate controls the current between Drain and Source.  
+  Unlike BJT, MOSFETs consume very little power because they are voltage-driven.
+
+  Real-World Applications:
+  ✅ Microprocessors and Memory Chips in computers.
+  ✅ Switching Power Supplies in chargers and adapters.
+  ✅ Motor Drivers in electric vehicles.
+
+  Example:
+  Laptop Power Management: MOSFETs control power distribution to different components.
+
+                               BJT      Vs.     MOSFET
+      Control: 	Current-driven          | 	Voltage-driven
+      Speed:	Slower	                  |   Faster
+      Power Consumption:	High          |   Low
+      Application: Amplifiers, switches	|   Power electronics, digital circuits
+      Examples:       Audio amplifiers  |   Computer processors and power converters
+
+  Conclusion:
+  BJT is like a Hand Water Tap control --> Current-Controlled
+  MOSFET is like a Touch based water tap control --> Voltage controlled
+
+6. Relays and Switches:
+
+  Definition: Both Relays and Switches used to control the flow of electricity, but they works in different ways.
+
+  1. Switch: A switch is simple manual or automatic device that allows to stop flow of electricity in a circuit.
+      working: When the switch is ON -> flow of Electricity 
+      when the swith is OFF -> No flow of Electricity.
+
+  2. Relay: A relay is electrically controlled switch which is consumes small current to control a larger current in a seperate circuit.
+
+    Working Principle:
+   🔹 A small electrical signal energizes a coil inside the relay.
+
+   🔹 The coil creates a magnetic field that pulls or releases a switch.
+
+   🔹 This allows a separate circuit (with high voltage or current) to be controlled.
+
+    Types of Relays:
+    🔹 Electromechanical Relay (EMR) – Uses physical moving parts.
+    🔹 Solid-State Relay (SSR) – Uses semiconductors, no moving parts.
+
+    Real-World Examples:
+    ✅ Car ignition system – A small key switch controls the large car battery circuit.
+    ✅ Home automation – Smart switches that turn on heavy appliances like ACs and geysers.
+    ✅ Industrial control – Used in motor controllers, alarms, and power grids.
+
+    Conclusion:
+   🔹  Instead of pressing the button manually, you use a remote.
+
+   🔹  The remote sends a small signal to the TV’s circuit, which then turns ON the TV.
+
+   🔹  The small remote signal controls a bigger power circuit.
+  
+   🔹  A small electrical signal controls a larger electrical circuit.
+
+    Conclusion:
+    Switch - it's like TV power button manually pressing.
+    Relay - it's like TV remote without direct contact Turns on the TV.
