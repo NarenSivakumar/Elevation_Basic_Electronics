@@ -1,0 +1,47 @@
+1. Semiconductor: 
+    Defintion: A semiconductor is a material that has electrical conductivity between a Conductor [copper, aluminium] and an Insulator [glass, rubber].
+    It can conduct electricity under certain conditions, making it the foundation of modern electronic devices.
+
+    Basic Properties of Semiconductors
+    i. Resistivity: Lies between conductors and insulators.
+
+    ii. Temperature Effect: As temperature increases, resistance decreases (opposite to metals).
+
+    iii. Band Gap: Has a small energy gap between the valence and conduction bands (~1 eV).
+
+    iv. Doping: Can be modified to enhance electrical properties.
+
+    Types of semiconductor:
+    i. intrinsic: pure semiconductor
+    ii. Extrinsic: doped semiconductor
+
+    i. Intrinsic: An Intrinsic semiconductor is a pure form of semiconductor without impurities.
+      Example : Silicon [Si] , Germanium [Ge].
+
+    ii. Extrinsic: An Extrinsic semiconductor is formed by doping an intrinsic semiconductor with impurities to its connectivity.
+      Types of Extrinsic Semiconductors:
+       i.  N-type Semiconductor (Donor-doped)
+       ii. P-type Semiconductor (Acceptor-doped)
+
+      Real-World Example: Coffee & Sugar Analogy ☕🍚
+      Imagine a cup of coffee (semiconductor material).
+      If you drink it without adding anything, it’s a pure coffee—this is like an intrinsic semiconductor (pure Si or Ge).
+      
+      However, if you add sugar or milk, it changes the taste—this is like an extrinsic semiconductor, where doping modifies conductivity.
+      
+      N-type vs. P-type Analogy:
+      
+      N-type Semiconductor (Donor-doped) → Adding Extra Sugar 🍚
+      If you add extra sugar, the coffee becomes sweeter.
+      Similarly, in an N-type semiconductor, extra electrons (negative charge) are added, increasing conductivity.
+      
+      P-type Semiconductor (Acceptor-doped) → Missing Sugar 🕳️
+      If you forget to add sugar, the coffee feels less sweet, leaving a "gap."
+      Similarly, in a P-type semiconductor, extra holes (positive charge carriers) are created, making it conductive.
+      
+      Key Takeaway:
+      Intrinsic semiconductor = Pure coffee ☕
+      
+      N-type semiconductor = Coffee with extra sugar 🍚 (extra electrons)
+      
+      P-type semiconductor = Coffee without sugar 🕳️ (holes created)
