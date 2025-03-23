@@ -45,3 +45,85 @@
       N-type semiconductor = Coffee with extra sugar 🍚 (extra electrons)
       
       P-type semiconductor = Coffee without sugar 🕳️ (holes created)
+
+2. Rectifiers: 
+    Definition: A Rectifier is an Electronic device that is used to converts AC into DC.
+    It allows current flows in only one direction and it's commonly used in power supplies.
+
+    Types:
+    i. Half-wave Rectifier
+    ii. Full-wave Rectifier: Center-tapped full wave rectifier and Bridge Rectifier.
+
+    1. Half-Wave Rectifier
+        Uses one diode to convert AC to DC.
+        
+        Only the positive half-cycle of AC is allowed, and the negative half is blocked.
+        
+        Output is pulsating DC (not smooth)
+        
+    Working:
+        During the positive half-cycle of AC, the diode is forward-biased (conducts).
+        
+        During the negative half-cycle, the diode is reverse-biased (blocks current).
+        
+        The output is a series of pulses (only the positive cycles).
+        
+        Disadvantages:
+        Inefficient (wastes half of the AC signal).
+        
+        Ripple effect (not smooth DC).
+
+        2. Full-Wave Rectifier (Center-Tap)
+        Uses two diodes and a center-tapped transformer.
+        
+        Converts both halves of AC into DC.
+        
+        More efficient than a half-wave rectifier.
+        
+        Working:
+        During the positive half-cycle, one diode conducts.
+        
+        During the negative half-cycle, the other diode conducts.
+        
+        Both cycles contribute to the output, reducing power loss.
+        
+        Disadvantages:
+        Requires a center-tapped transformer (costly).
+
+        3. Bridge Rectifier (Most Common)
+        Uses four diodes in a bridge configuration.
+        
+        No center-tap transformer required.
+        
+        Converts both half-cycles of AC into DC.
+        
+        Working:
+        During the positive half-cycle, two diodes conduct.
+        
+        During the negative half-cycle, the other two diodes conduct.
+        
+        The result is a continuous pulsating DC output.
+        
+        Advantages:
+        More efficient than half-wave and center-tap rectifiers.
+        
+        Does not require a center-tapped transformer.
+        
+        Provides higher DC output voltage.
+
+
+    Real-World Example: Charging a Mobile Phone 📱⚡
+        Imagine you plug your phone charger into an AC power socket.
+        
+        The rectifier inside the charger converts AC (from the wall socket, 230V AC) to DC (used by the phone, typically 5V DC).
+        
+        If the charger used a Half-Wave Rectifier, it would charge very slowly and inefficiently.
+        
+        Instead, a Bridge Rectifier is used for efficient, smooth DC power conversion.
+        
+        Key Takeaway:
+        Half-Wave Rectifier = Like drinking water only every alternate sip 🥤 (inefficient).
+        
+        Full-Wave Rectifier = Like drinking water every sip, but with a break (better).
+        
+        Bridge Rectifier = Like drinking water smoothly and continuously (most efficient).
