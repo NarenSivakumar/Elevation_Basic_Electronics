@@ -127,3 +127,108 @@
         Full-Wave Rectifier = Like drinking water every sip, but with a break (better).
         
         Bridge Rectifier = Like drinking water smoothly and continuously (most efficient).
+
+3. Filters: Low, High and Band-pass
+
+    Definition:  A filter is an electronic circuit that allows certain frequencies to pass while blocking or attenuating            others. It is commonly used in signal processing, communication systems, and audio electronics.
+    
+    Types of Filters:
+
+    i. Low-Pass Filter (LPF) – Passes low frequencies, blocks high frequencies.
+
+    Real-World Example: Bass Boost in Audio Systems 🎵
+    In speakers or subwoofers, an LPF is used to allow bass (low frequencies) to pass while blocking higher frequencies.
+    This ensures that only deep, low sounds (like drum beats and bass guitar) are played through the subwoofer.
+
+
+    ii. High-Pass Filter (HPF) – Passes high frequencies, blocks low frequencies.
+
+    Real-World Example: Treble Control in Audio Systems 🎧
+    In earphones and speakers, an HPF is used to allow sharp, high-pitched sounds (like cymbals and vocals) to pass while 
+    reducing bass.
+    This makes the sound crisp and clear.
+    
+    iii. Band-Pass Filter (BPF) – Passes only a specific range of frequencies.
+
+    Real-World Example: FM/AM Radio Tuning 📻
+    When you tune a radio station, a band-pass filter allows only the specific frequency of that station to pass while blocking 
+    all other stations.
+    This ensures clear reception of a single station without interference.
+
+    Conclusion:
+    i. LPF - Allows only Low frequency and Blocks High frequency.
+    ii. HPF - Allows only High frequency and blocks low frequency.
+    iii. BPF - Allows only specific ranges.
+
+4. OP-AMP: Operational-Amplifier
+    Definition: An Operational Amplifier (Op-Amp) is a high-gain electronic device that amplifies voltage signals. It is a          fundamental building block in analog electronics, used in filters, amplifiers, and signal processing.
+
+    Basic Properties of Op-Amps: [Not that much important just a theory for better understanding]
+       i. High Gain → Can amplify weak signals significantly.
+        
+       ii. High Input Impedance → Draws minimal current, preventing signal loss.
+        
+       iii. Low Output Impedance → Provides strong output to the next circuit stage.
+        
+        iv. Differential Inputs → Two input terminals:
+        
+        v. Inverting (-) → Reverses the input signal phase.
+        
+        vi. Non-Inverting (+) → Maintains the input signal phase.
+        
+        Basic Op-Amp Configuration:
+        Open-Loop Mode (Without Feedback) → Maximum gain but unstable.
+        Closed-Loop Mode (With Feedback) → Controlled gain and stable operation.
+
+    Real-world Example:
+    Imagine an Op-Amp as a waiter in a restaurant who:
+
+    1. Listens to customer orders (Input Signal 🎤).
+    2. Amplifies the order to the kitchen (Increases Signal 📢).
+    3. Gets feedback from the chef (Feedback Loop 🔄).
+    4. Delivers the food to the customer (Output 📦).
+
+Conclusion & Key Takeaway:
+    1. Op-Amp = Waiter → Takes input, processes it, and gives output.
+    2. Without feedback → Can misunderstand (unstable amplification).
+    3. With feedback → Works efficiently (controlled output).
+
+    Application: Audio Amplifiers - Audio Mixers, Signal Conditioning - ECG Machine, Oscillators - Clocks; Generates waveforms      for clocks circuits in microcontroller and timers.
+
+5. Voltage Regulator: Linear and Switching
+
+    Definition: A Voltage Regulator is an electronic device that maintains a constant output voltage regardless of changes in       input voltage or load conditions. It ensures that circuits receive a stable voltage, preventing damage to electronic            components.
+
+    Types of Voltage Regulators:
+
+    1️⃣ Linear Voltage Regulators
+    Uses resistors and transistors to drop excess voltage as heat.
+    Provides steady, low-noise output but is inefficient (wastes energy as heat).
+    Common Example: 7805 Voltage Regulator (provides a fixed 5V output).
+    
+    Advantages:
+    ✅ Simple design
+    ✅ Low noise
+    ❌ Wastes energy (heat)
+    ❌ Not efficient for high-power applications
+
+    2️⃣ Switching Voltage Regulators (SMPS - Switch Mode Power Supply)
+    Uses high-speed switching circuits to convert voltage efficiently.
+    Converts AC to DC or one DC voltage to another with minimal energy loss.
+    Common Example: Buck (Step-Down) and Boost (Step-Up) Regulators.
+    
+    Advantages:
+    ✅ High efficiency (low heat)
+    ✅ Suitable for high-power applications
+    ❌ More complex design
+    ❌ Can generate electrical noise
+
+    1. Linear Regulator → Water Tap 🚰
+    
+    A simple tap reduces high water pressure to a constant flow (but wastes excess water).
+    Just like a linear regulator, which reduces voltage by converting extra power into heat.
+    
+    2. Switching Regulator → Water Pump ⚡🚀
+    
+    A water pump adjusts speed to maintain pressure efficiently.
+    Just like a switching regulator, which converts voltage without wasting much energy.
