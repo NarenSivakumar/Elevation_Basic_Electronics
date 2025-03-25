@@ -1,0 +1,120 @@
+Electrical Machines overview:
+  Definition: An Electrical Machine is a device that converts electrical energy into mechanical energy (Motor) 
+  or mechanical energy into electrical energy (Generator).
+
+ Main Parts of an Electrical Machine
+   i.   Stator 🏗️ → The stationary part (outer frame)
+   ii.  Rotor 🔄 → The rotating part that interacts with the stator.
+   iii. Windings 🔌 → Coils of wire that carry current to produce magnetic fields.
+   iv.  Core 🏗️ → Provides a path for magnetic flux.
+   v.   Bearings ⚙️ → Reduce friction between moving parts.
+
+1. Power Factor
+    Definition: Power factor is the ratio of real power and reactive power in an AC circuit.
+    It's used to indicate how efficiently electrical power is used.
+
+    cos o = P/S  
+  Where:
+       P (Watts) → Real Power (Used for work)
+       S (VA) → Apparent Power (Total supplied power)
+
+    Why is Power Factor Important?
+    Low PF → Wastes energy, increases electricity bills.
+    High PF → Efficient power usage, reduces losses.
+  
+    Real-World Example: Running vs. Walking 🚶‍♂️🏃‍♂️
+    High Power Factor (PF ≈ 1) → Running straight (efficient movement).
+    Low Power Factor (PF < 1) → Walking in a zig-zag (wasted effort).
+
+    Conclusion:  Improving the PF
+    To Increase the PF we typically add extra capactors to the circuit.
+    Capacitors provide a leading current that counteracts the lagging current caused by inductive loads. 
+    This brings the voltage and current waveforms closer to being in phase, increasing the power factor and improving the system’s efficiency.    
+      
+
+2. Transformers:
+    Definition: A Transformer is a static electrical machine that transfers electrical energy between circuits 
+    through electromagnetic induction.
+  
+    Basic Working:
+    i. Primary Coil → Receives AC voltage and creates a magnetic field.
+    ii. Core → Transfers the magnetic field to the secondary coil.
+    iii. Secondary Coil → Converts the magnetic field back into electrical energy at a different voltage.
+
+    Efficiency formula:   
+          n = [Output power/ Input power] X 100%
+    Where:
+    High Efficiency (~98%) means minimal energy loss.
+    
+    Real-World Example: Mobile Charger 🔋📱
+    A mobile charger steps down 230V AC to 5V DC using a transformer and rectifier.
+
+  3. Synchronous speed:
+    Synchronous speed is a critical parameter in AC machines, particularly in induction and synchronous motors. 
+    It refers to the speed of the rotating magnetic field produced by the stator windings. This speed is determined by the following formula:
+
+    Synchronous Speed (Ns) = (120 * f) / P
+    where:
+    f is the frequency of the AC supply (in Hertz)
+    P is the number of poles in the stator winding
+    
+    For example, a 4-pole motor connected to a 60 Hz supply will have a synchronous speed of:
+    Ns = (120 * 60) / 4 = 1800 RPM
+    Slip (s) = [(Ns – Nr) / Ns] * 100%
+    Torque Production: Slip is necessary for an induction motor to produce torque. 
+    The slip of an induction motor typically ranges from 2% to 5% at full load.
+
+
+  4. DC motors & AC motors:
+  1️⃣ DC Motors (Direct Current Motors)
+      Works on direct current (DC) supply.
+      Speed can be easily controlled by varying voltage or current.
+      Used in battery-operated devices, robotics, and vehicles.
+      
+      Types of DC Motors:
+      1.1 DC Series Motor
+      High starting torque but speed varies with load.
+      Used in: Electric trains 🚆, cranes 🏗️, and elevators.
+      
+      1.2 DC Shunt Motor
+      Constant speed operation, independent of load.
+      Used in: Lathe machines, fans, and conveyors.
+      
+      1.3 DC Compound Motor
+      Combination of series and shunt motors → High torque & steady speed.
+      Used in: Printing presses 🖨️, rolling mills.
+      
+      Real-World Example: Toy Cars 🚗
+      A DC motor inside the toy car runs on batteries (direct current), making the wheels turn.
+      
+  2️⃣ AC Motors (Alternating Current Motors)
+      Works on alternating current (AC) supply.
+      Commonly used in household appliances and industries.
+      
+      Types of AC Motors:
+      2.1 Induction Motor (Most Common)
+      Self-starting and no need for brushes/commutators.
+      Used in: Fans, washing machines, pumps.
+      
+      (a) Single-Phase Induction Motor
+      Used in: Ceiling fans, refrigerators, water pumps.
+      
+      (b) Three-Phase Induction Motor
+      Used in: Industries (conveyors, compressors, large machines).
+      
+      2.2 Synchronous Motor
+      Runs at a constant speed synchronized with supply frequency.
+      Used in: Clocks ⏰, synchronous generators in power plants.
+      
+      Real-World Example: Ceiling Fan 🌬️
+      An induction motor in the fan converts AC power into mechanical rotation.
+
+
+
+Common Interview Questions:
+  1. How do you troubleshoot a faulty electrical motor?
+  Ans: Troubleshooting a faulty electrical motor involves a systematic approach to identify the root cause of the problem. 
+    Steps: 
+    1. Visual inspection - If there any physical damage or overheating.
+    2. Testing  - using Multimeter, etc.
+    3. Analyzing - Test results, Operation conditions.
