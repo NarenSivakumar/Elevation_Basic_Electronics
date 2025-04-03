@@ -41,7 +41,7 @@
     i. SOP - Sum of Product
     ii. POS - Product of Sum
 
-    For mapping, refer the my notes. 
+    For mapping, refer my notes. 
 
     Real-world Example:
     Traffic Light Controller: The logic for changing signals (Red → Green → Yellow) can be simplified using Boolean algebra, 
