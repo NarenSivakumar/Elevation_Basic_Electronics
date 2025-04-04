@@ -17,6 +17,8 @@ Real-World Example:
 📌Fan Speed Control in Home Fans 
 In ceiling fans with speed regulators, a TRIAC controls the voltage supplied to the fan motor. By adjusting the TRIAC's firing angle, the fan speed can be increased or decreased smoothly, making it more energy efficient than traditional resistive regulators.
 
+
+
 ---
 
 3. DIAC (Diode for Alternating Current)
