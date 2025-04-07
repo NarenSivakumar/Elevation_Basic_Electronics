@@ -2,7 +2,7 @@ Simple Core Definition
 
 Topology - means how the devices are physically or logically linked.
 
-MATLAB – A tool used for numerical computing, simulation, and algorithm development.
+MATLAB [Matrix Laboratory]– A tool used for numerical computing, simulation, and algorithm development.
 
 Ansys – Software for engineering simulation like stress, heat, and fluid flow analysis.
 
