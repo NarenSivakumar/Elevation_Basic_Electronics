@@ -1,7 +1,7 @@
 POWER SEMICONDUCTOR DEVICES -  part 1
 1. SCR (Silicon Controlled Rectifier)
-What is it?
-An SCR is a four-layer, three-terminal semiconductor device that acts as a switch. It remains off (non-conducting) 
+What is it ?
+Answer: An SCR is a four-layer, three-terminal semiconductor device that acts as a switch. It remains off (non-conducting) 
 until a small gate current is applied, after which it stays on until the main current drops below a certain level.
 
 Real-World Example:
