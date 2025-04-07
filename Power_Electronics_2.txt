@@ -1,4 +1,6 @@
-  1. DC-DC converters - Choppers
+CHAPTER - DC to DC Converters
+
+1. DC-DC converters - Choppers
       Definition: DC-DC converters also known as Choppers. It's used to convert a fixed DC input voltage
       into variable DC output voltage.
 
@@ -48,3 +50,21 @@
           
           CSI:
           🔥 Industrial Induction Heating applications use CSIs, where a constant current is needed for consistent heat.
+
+    4. SMPS Detailed - Switched Mode Power Supplies  
+      Definition: A switched-mode power supply (SMPS) is a power electronics topology, which consists of two power stages.
+      The first stage converts the ac supply into dc and the second stage converts the dc voltage to the desired dc output voltage.
+
+      What is SMPS?
+      It is an electronic power supply that converts electrical power efficiently using switching devices (like transistors) that turn on and off at high speed.
+
+       Why is SMPS used?
+      SMPS is used to convert one type of voltage to another (like AC to DC, DC to DC, etc.) with high efficiency, low heat, and compact size.
+
+      Basic Working: AC Input → Rectifier & Filter → Switch (MOSFET) → Transformer → Rectifier & Filter → DC Output
+                           ↑                                        ↓
+                         Feedback Control Circuit
+
+      Real-world Examples:
+        i. Laptop and Phone Chargers.
+        ii. LED Drivers.
