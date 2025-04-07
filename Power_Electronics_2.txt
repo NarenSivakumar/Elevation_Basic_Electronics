@@ -1,0 +1,50 @@
+  1. DC-DC converters - Choppers
+      Definition: DC-DC converters also known as Choppers. It's used to convert a fixed DC input voltage
+      into variable DC output voltage.
+
+    Types:
+      i. Buck - Reduces voltage like stepdown
+      ii. Boost - Increase the voltage like stepup
+      iii. Buck-Boost - Increases or Decreases the voltage depending on requirement
+
+    Real-world example:
+      Mobile Phone Charger: Inside your charger, a buck converter reduces the 5V USB voltage to around
+      3.7V to charge your phone battery safely.
+
+    2. Single-phase and Three-phase Inverters
+
+      Definition: An inverter converts DC power into AC power.
+      Single-phase Inverter: Produces single-phase AC output (used in households)
+      Three-phase Inverter: Produces 3-phase AC output (used in industrial motors)
+      
+      Real-World Examples:
+      Single-phase Inverter:
+      Home UPS systems use single-phase inverters to supply AC power from a battery during power cuts.
+      
+      Three-phase Inverter:
+      Electric Vehicle (EV) Motor Drives use three-phase inverters to control the 3-phase motor's speed and torque.
+
+      3. PWM - Pulse Width Modulation - Short: Inverter - controls op voltage and frequency.
+        Definition: PWM is used in inverters to control output voltage and frequency by adjusting the pulse widths of 
+        the switches.
+
+        i. Sinusoidal PWM
+          Working:
+          A sine wave (reference signal) is compared with a high-frequency triangular wave (carrier signal) to generate PWM signals.
+  
+          Real-World Example:
+           🌞 Solar Inverters: SPWM is used to convert DC from solar panels to smooth AC that matches the grid frequency.
+
+        ii. Space Vector PWM (SVPWM)
+          Working:
+          SVPWM is a more advanced technique that uses the concept of space vectors and sector switching to get better voltage utilization.
+          
+          Real-World Example:
+          🚗 Electric Cars (like Tesla): SVPWM is used in motor controllers for higher efficiency and smoother motor performance compared to SPWM.
+
+  Extra : Voltage source and Current source Inverters
+          VSI:
+          ⚡ UPS systems and EV motor drives use VSIs because voltage control is needed.
+          
+          CSI:
+          🔥 Industrial Induction Heating applications use CSIs, where a constant current is needed for consistent heat.
