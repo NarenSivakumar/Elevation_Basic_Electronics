@@ -1,0 +1,21 @@
+Simple Core Definition 
+
+Topology - means how the devices are physically or logically linked.
+
+MATLAB – A tool used for numerical computing, simulation, and algorithm development.
+
+Ansys – Software for engineering simulation like stress, heat, and fluid flow analysis.
+
+MotorCAD – Used to design and simulate electric motors and thermal performance.
+
+CAD – Software for creating precise 2D and 3D engineering designs.
+
+AC (Alternating Current) – Electric current that reverses direction periodically.
+
+DC (Direct Current) – Electric current that flows in one direction only.
+
+Voltage – The electrical pressure that pushes current through a circuit.
+
+Current – The flow of electric charge through a conductor.
+
+EMF (Electromotive Force) – The energy provided per charge by a source like a battery.
